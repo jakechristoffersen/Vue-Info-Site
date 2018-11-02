@@ -6,7 +6,11 @@ import App from './App'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import Vuetify from 'vuetify'
 
+Vue.use(Vuetify, {
+    iconfont:  'fa' || 'mdi' || 'md'
+  })
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 

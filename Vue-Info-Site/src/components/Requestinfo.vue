@@ -1,4 +1,5 @@
 <template>
+
     <div>
         <b-card bg-variant="light">
             <b-form-group horizontal breakpoint="lg" label="Request Info" label-size="lg" label-class="font-weight-bold pt-0"
@@ -31,6 +32,7 @@
 </template>
 
 <script>
+    
     export default {
         name: 'requestinfo',
         data() {

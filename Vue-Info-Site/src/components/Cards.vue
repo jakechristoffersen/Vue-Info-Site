@@ -51,6 +51,7 @@
             </b-card>
         </b-card-group>
     </div>
+
 </template>
 <!-- card-group-3.vue -->
 
@@ -59,7 +60,7 @@
         name: 'cards',
         data() {
             return {
-
+                show: false
             }
         },
         methods: {
@@ -67,3 +68,7 @@
         }
     }
 </script>
+
+<style scoped>
+
+</style>
