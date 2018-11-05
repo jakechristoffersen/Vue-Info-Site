@@ -7,6 +7,7 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Vuetify from 'vuetify'
+import firebase from "firebase";
 
 Vue.use(Vuetify, {
     iconfont:  'fa' || 'mdi' || 'md'

@@ -15,7 +15,7 @@
                     <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                 </blockquote>
             </b-card>
-            <b-card title="Title" img-src="https://placekitten.com/500/350" img-fluid img-alt="image" img-top>
+            <b-card title="Titttle" img-src="https://placekitten.com/500/350" img-fluid img-alt="image" img-top>
                 <p class="card-text">
                     This card has supporting text below as a natural lead-in to additional content.
                 </p>

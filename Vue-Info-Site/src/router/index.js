@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import Carousel from '@/components/Carousel'
 import Cards from '@/components/Cards'
 import Requestinfo from '@/components/Requestinfo'
+import store from "../store"
 
 Vue.use(Router)
 
@@ -32,3 +33,15 @@ export default new Router({
         }
     ]
 })
+
+// router.beforeEach((to, from, next) => {
+//     if (to.path == '/login' || to.path == '/register') {
+//       next()
+//     } else if (to.matched.length == 0) {
+//       next("/")
+//     } else if (!store.state.user.email) {
+//       next(false)
+//     } else {
+//       next()
+//     }
+//   })
